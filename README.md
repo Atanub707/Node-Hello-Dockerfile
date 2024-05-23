@@ -17,7 +17,18 @@ After Build
 ```
 docker run -d -p 3000:3000 nodeapp/v1
 ```
+
 # Run Node Hello World Using Docker-Compose
 ```
 docker compose up -d --build
 ``` 
+
+# Quick Set-Up In Ubuntu
+Copy setup.sh In Linux Server and Give Permission;
+```
+chmod +x setup.sh
+```
+and Then Run;
+```
+sudo ./setup.sh
+```
