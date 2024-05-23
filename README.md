@@ -8,7 +8,7 @@ Great for testing simple deployments to the cloud
 
 `npm start`
 
-# Run Node Hello Word Using Docker
+# Run Node Hello World Using Docker
 To build The DockerFile
 ```
 docker build -t nodeapp/v1 .
@@ -17,3 +17,7 @@ After Build
 ```
 docker run -d -p 3000:3000 nodeapp/v1
 ```
+# Run Node Hello World Using Docker-Compose
+```
+docker compose up -d --build
+``` 
